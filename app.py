@@ -27,7 +27,7 @@ with st.sidebar:
         api_key ="AIzaSyCmk2xo13bMrxlwrpIzf20Qpgbj_9Wcklo"
 
         
-        )
+        
         if api_key:
             st.session_state.GOOGLE_API_KEY = api_key
             st.success("API Key saved!")
